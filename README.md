@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nithyashree | Cloud Engineer & AI/ML Enthusiast</title>
+  <title>Nithyashree N | Cloud Engineer & AI/ML Enthusiast</title>
   <style>
     :root {
       --bg-light: #f4f6f8;
@@ -129,12 +129,27 @@
 </head>
 <body>
   <header>
-    <h1>Nithyashree</h1>
+    <h1>Nithyashree N</h1>
     <p>Cloud Engineer Intern @ Titan | IEEE Author | AI/ML Enthusiast | ISRO Aspirant</p>
     <button class="toggle-btn" onclick="toggleMode()">Toggle Mode</button>
   </header>
 
   <div class="container">
+    <section>
+      <p>I am a highly motivated and detail-oriented cloud engineer with a strong passion for leveraging AWS and AI technologies to solve real-world problems. With a foundation in machine learning and cloud architecture, I build secure and scalable solutions that drive performance and impact.</p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>AWS (Lambda, EC2, S3, SNS, SES, CloudWatch, Cost Explorer, QuickSight)</li>
+        <li>Python, SQL, Bash, JavaScript</li>
+        <li>AI/ML: PyTorch, OpenCV, ResNet, Swin Transformer, ConvNeXt</li>
+        <li>DevOps Tools: Git, GitHub Actions, Grafana, Timestream, IAM</li>
+        <li>Cloud Architecture, Cost Optimization, FinOps Principles</li>
+      </ul>
+    </section>
+
     <section>
       <h2>Projects</h2>
       <ul>
@@ -156,8 +171,7 @@
     <section>
       <h2>Experience</h2>
       <p><strong>Cloud Engineer Intern @ Titan Company Ltd.</strong> (Oct 2024 – Present)<br />
-      - Monitoring & optimization using CloudWatch, Canaries, Cost Explorer<br />
-      - Experience in Python, QuickSight, Grafana, Timestream DB, IAM</p>
+      Contributed to the transformation of cloud operations through automated monitoring and performance optimization solutions. Built end-to-end systems using AWS services like Lambda, CloudWatch Synthetics, Cost Explorer, and SES. Developed dashboards in QuickSight and Grafana, managed infrastructure with IAM policies, and handled time-series data with Timestream. Enhanced cost visibility, operational reliability, and multi-brand website analytics.</p>
     </section>
 
     <section>
@@ -191,7 +205,7 @@
   </div>
 
   <footer>
-    © 2025 Nithyashree. Built with 💻 and ☁️
+    © 2025 Nithyashree N. Built with 💻 and ☁️
   </footer>
 
   <script>
