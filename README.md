@@ -176,7 +176,6 @@
         <li>Built scalable serverless solutions using Lambda, SES, and Cost Explorer to enhance cloud cost efficiency.</li>
         <li>Designed interactive dashboards in AWS QuickSight and Grafana for data-driven insights and reporting.</li>
         <li>Worked with Timestream DB to store and query time-series data for website performance analytics.</li>
-        <li>Implemented IAM policies and best practices to manage secure cloud access across the organization.</li>
       </ul>
     </section>
 
