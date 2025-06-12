@@ -170,8 +170,14 @@
 
     <section>
       <h2>Experience</h2>
-      <p><strong>Cloud Engineer Intern @ Titan Company Ltd.</strong> (Oct 2024 – Present)<br />
-      Contributed to the transformation of cloud operations through automated monitoring and performance optimization solutions. Built end-to-end systems using AWS services like Lambda, CloudWatch Synthetics, Cost Explorer, and SES. Developed dashboards in QuickSight and Grafana, managed infrastructure with IAM policies, and handled time-series data with Timestream. Enhanced cost visibility, operational reliability, and multi-brand website analytics.</p>
+      <p><strong>Cloud Engineer Intern @ Titan Company Ltd.</strong> (Oct 2024 – Present)</p>
+      <ul>
+        <li>Developed automated monitoring systems using AWS CloudWatch Synthetics for real-time health checks.</li>
+        <li>Built scalable serverless solutions using Lambda, SES, and Cost Explorer to enhance cloud cost efficiency.</li>
+        <li>Designed interactive dashboards in AWS QuickSight and Grafana for data-driven insights and reporting.</li>
+        <li>Worked with Timestream DB to store and query time-series data for website performance analytics.</li>
+        <li>Implemented IAM policies and best practices to manage secure cloud access across the organization.</li>
+      </ul>
     </section>
 
     <section>
@@ -205,7 +211,7 @@
   </div>
 
   <footer>
-    © 2025 Nithyashree N. Built with 💻 and ☁️
+    © 2025 Nithyashree N.
   </footer>
 
   <script>
