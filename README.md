@@ -71,7 +71,13 @@
       border-color: #555;
     }
 
-    ul { list-style-type: square; padding-left: 1.5rem; }
+    ul { list-style-type: none; padding-left: 1.5rem; }
+    ul li::before {
+      content: "\2192  "; /* Right arrow */
+      color: #2563eb;
+      font-weight: bold;
+    }
+
     section { margin-bottom: 2rem; }
 
     footer {
@@ -104,6 +110,21 @@
       font-size: 0.8rem;
       line-height: 20px;
     }
+
+    .resume-button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      background: #2563eb;
+      color: white;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .resume-button:hover {
+      background: #1e40af;
+    }
   </style>
 </head>
 <body>
@@ -115,32 +136,32 @@
 
   <div class="container">
     <section>
-      <h2>🚀 Projects</h2>
+      <h2>Projects</h2>
       <ul>
-        <li><strong>Image & Video Deduplication System</strong> – SHA-1024, ResNet, ConvNeXt, Swin Transformer on Azure for optimized cloud storage.</li>
         <li><strong>AI-Powered Issue Resolution Bot</strong> – Integrated AWS Q with Atlassian Confluence to resolve customer issues efficiently.</li>
         <li><strong>Multi-Channel Alert System</strong> – Real-time CPU alerts across AWS Infra using Lambda, SNS & CloudWatch.</li>
         <li><strong>Real-Time PageSpeed Analytics</strong> – AWS Lambda, DynamoDB, and Grafana for 9+ major retail brands.</li>
         <li><strong>Cost Saving Distribution Engine</strong> – Automated AWS Cost Hub suggestions sent via SES & Outlook daily.</li>
+        <li><strong>Image & Video Deduplication System</strong> – SHA-1024, ResNet, ConvNeXt, Swin Transformer on Azure for optimized cloud storage.</li>
       </ul>
     </section>
 
     <section>
-      <h2>📚 Research & Publication</h2>
+      <h2>Research & Publication</h2>
       <p><strong>IEEE Publication</strong>: "Image Deduplication in Cloud Storage using SHA-1024 & Perceptual Algorithm"<br />
       Published in IEEE Conference Proceedings, 2024.<br />
       <em><a href="https://ieeexplore.ieee.org/document/10860091" target="_blank">View Paper on IEEE Xplore</a></em></p>
     </section>
 
     <section>
-      <h2>💼 Experience</h2>
-      <p><strong>Cloud Engineer Intern @ Titan Company Ltd.</strong> (Nov 2024 – Present)<br />
+      <h2>Experience</h2>
+      <p><strong>Cloud Engineer Intern @ Titan Company Ltd.</strong> (Oct 2024 – Present)<br />
       - Monitoring & optimization using CloudWatch, Canaries, Cost Explorer<br />
       - Experience in Python, QuickSight, Grafana, Timestream DB, IAM</p>
     </section>
 
     <section>
-      <h2>📜 Certifications</h2>
+      <h2>Certifications</h2>
       <p><strong>AWS Certified Solutions Architect – Associate</strong><br />
       Aggregate: 880/1000<br />
       Key Skills: AWS | Cloud Computing | Cloud Services<br />
@@ -149,7 +170,7 @@
     </section>
 
     <section>
-      <h2>🌐 Languages Known</h2>
+      <h2>Languages Known</h2>
       <p>English – Read, Write, Speak</p>
       <div class="bar-container"><div class="bar" style="width: 100%">100%</div></div>
       <p>French – Read, Write</p>
@@ -161,10 +182,11 @@
     </section>
 
     <section>
-      <h2>📫 Contact</h2>
+      <h2>Contact</h2>
       <p>Email: <a href="mailto:nithyashreenamasivayam@gmail.com">nithyashreenamasivayam@gmail.com</a></p>
       <p>GitHub: <a href="https://github.com/nithyashree-n27" target="_blank">github.com/nithyashree-n27</a></p>
       <p>LinkedIn: <a href="https://www.linkedin.com/in/nithyashree-n-06a166358" target="_blank">linkedin.com/in/nithyashree-n-06a166358</a></p>
+      <a class="resume-button" href="resume.pdf" download>Download Resume</a>
     </section>
   </div>
 
