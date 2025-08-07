@@ -129,7 +129,7 @@
 <body>
   <header>
     <h1>Nithyashree N</h1>
-    <p>Cloud Engineer Intern @ Titan | IEEE Author | AI/ML Enthusiast | ISRO Aspirant</p>
+    <p>Cloud Engineer Intern @ Titan | IEEE Author | AI/ML Enthusiast </p>
     <button class="toggle-btn" onclick="toggleMode()">Toggle Mode</button>
   </header>
 
